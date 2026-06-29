@@ -1,0 +1,12 @@
+# Build output
+bin/
+*.o
+*.optrpt
+*~
+a.out
+nbody3D
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
