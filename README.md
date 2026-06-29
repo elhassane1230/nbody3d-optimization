@@ -103,21 +103,6 @@ Gain curves across the optimization steps, per compiler:
 |-----|-------|-----------|
 | ![gcc](benchmarks/courbe_gain_gcc.png) | ![clang](benchmarks/courbe_gain_clang.png) | ![icx](benchmarks/courbe_gain_icx.png) |
 
-Summary (fill in with your measured averages at `N = 16384`):
-
-| Step | GCC (GFLOP/s) | Clang | icx |
-|------|---------------|-------|-----|
-| 00 baseline           | _( )_ | _( )_ | _( )_ |
-| 01 soa + aligned      | _( )_ | _( )_ | _( )_ |
-| 02 restrict           | _( )_ | _( )_ | _( )_ |
-| 03 without pow        | _( )_ | _( )_ | _( )_ |
-| 04 parallel           | _( )_ | _( )_ | _( )_ |
-| 05 aggressive flags   | _( )_ | _( )_ | _( )_ |
-| 06 unrolling          | _( )_ | _( )_ | _( )_ |
-| 07 cache blocking     | _( )_ | _( )_ | _( )_ |
-| 08 intrinsics         | _( )_ | _( )_ | _( )_ |
-
-See [`docs/hardware.md`](docs/hardware.md) for the test environment.
 
 ## Project structure
 
