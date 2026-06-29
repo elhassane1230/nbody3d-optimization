@@ -104,6 +104,8 @@ Gain curves across the optimization steps, per compiler:
 | ![gcc](benchmarks/courbe_gain_gcc.png) | ![clang](benchmarks/courbe_gain_clang.png) | ![icx](benchmarks/courbe_gain_icx.png) |
 
 
+See [`docs/hardware.md`](docs/hardware.md) for the test environment.
+
 ## Project structure
 
 ```
