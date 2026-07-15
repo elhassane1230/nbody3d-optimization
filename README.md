@@ -1,8 +1,8 @@
-# N-body 3D — Optimization Study
+# N-body 3D: Optimization Study
 
 A step-by-step performance optimization of a 3D **N-body** gravitational
 simulation in C, taking the naive `O(N²)` direct-sum solver from a scalar
-baseline to a hand-vectorized, multi-threaded implementation — and measuring
+baseline to a hand-vectorized, multi-threaded implementation, and measuring
 the gain at every step across **three compilers** (GCC, Clang, Intel `icx`).
 
 ![Language](https://img.shields.io/badge/language-C-blue)
@@ -19,7 +19,7 @@ cost of `O(N²)` per time step. The simulation advances velocities and positions
 over a fixed number of steps; throughput is reported in **GFLOP/s** (with the
 first few iterations discarded as warm-up).
 
-This project does **not** change the algorithm (no Barnes-Hut / FMM) — it keeps
+This project does **not** change the algorithm (no Barnes-Hut / FMM), it keeps
 the exact same `O(N²)` math and focuses entirely on **how efficiently that math
 is executed on the hardware**.
 
